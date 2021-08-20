@@ -1,0 +1,209 @@
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav{
+	background: black;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	top: 0;
+	z-index: 99999;
+	position: sticky;
+}
+
+#nav h1{
+	float: left;
+}
+
+#nav h1 a{
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+	margin-right: 10px;
+}
+
+#nav ul{
+	float: right;
+}
+
+
+#nav ul li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+}
+
+#nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+
+}
+
+#nav ul li :hover{
+	background: #4853dc;
+	transition: all ease-in-out 0.40s;
+}
+
+
+
+#hello1{
+	background: red;
+	height: 5px;
+}
+ 
+ #hello2{
+    background: url(welcome.png) no-repeat;
+    background-size: cover;
+ 	width: 110%;
+ 	height: 1000px;
+ }
+
+ #button1{
+ 	background-color: orange;
+ 	border: 0px;
+ 	width: 100px;
+ 	height: 70px;
+ 	margin-left:700px;
+    margin-top: 500px;
+ }
+
+ #button1 a{
+ 	text-decoration: none;
+ 	color: blue;
+ 	font-size: 25px;
+ 	font-weight: bold;
+}
+
+ #button2{
+ 	background-color: blue;
+ 	border: 0px;
+ 	width: 100px;
+ 	height: 70px;
+ 	margin-left:700px;
+    margin-top: 500px;
+    margin-right: 200px;
+ }
+
+ #button2 a{
+ 	text-decoration: none;
+ 	color: yellow;
+ 	font-size: 25px;
+ 	font-weight: bold;
+}
+
+.links{
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  font-size: 20px;
+  border: 2px solid #f01c41;
+  }
+
+  .menu{
+  	margin-left: 500px;
+  	background-color: green;
+  }
+
+  .hellodiv{
+  	background-color: green;
+  }
+
+#isport{
+	background-image: linear-gradient(pink, lavender, yellow);
+}
+
+#favoritechesplay{
+	background-image: linear-gradient(cyan, skyblue);
+}
+
+#favoritechesplay h1, h2, img{
+	margin-left: 700px;
+}
+
+#favoritechesplay p{
+	margin-left: 25px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+#isport h2, img{
+	margin-right: 600px;
+} 
+
+#inspiration h1{
+   margin-left: 700px;
+}
+
+#inspiration{
+	background-image: linear-gradient(yellow, pink, aliceblue);
+}
+
+#book{
+	background-image: linear-gradient(yellow, pink);
+}
+
+
+#movie h1{
+	margin-left: 700px;
+}
+
+#book h1{
+	margin-left: 700px;
+}
+
+.body2{
+	background-color: darkseagreen;
+	text-align: center;
+}
+
+form #label1, #input1{
+	margin-top: 100px;
+}
+
+input{
+	height: 25px;
+	font-size: 20px;
+}
+
+form #label2, #input2{
+	margin-bottom: 100px;
+}
+
+form #input2{
+	margin-right: 68px;
+}
+  
+
+  form #label3, #input3{
+  	margin-bottom: 500px;
+  }
+
+  button{
+  	width: 90px;
+  	height: 40px;
+  	background-color: green;
+  	font-size: 25px;
+  	color: white;
+  }
+
+  button :hover{
+  	cursor: pointer;
+  }
+
+  iframe{
+        width: 100%;
+        height: 600px;
+    }
